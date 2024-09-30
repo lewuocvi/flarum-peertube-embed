@@ -1,0 +1,35 @@
+{
+    "name": "lewuocvi/peertube-embed",
+    "description": "embed video peertube",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "GPL-1.0-or-later",
+    "require": {
+        "flarum/core": "^1.2.0"
+    },
+    "authors": [
+        {
+            "name": "lewuocvi",
+            "email": "lewuocvi@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lewuocvi\\PeertubeEmbed\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Peertube Embed",
+            "category": "",
+            "icon": {
+                "name": "",
+                "color": "",
+                "backgroundColor": ""
+            }
+        }
+    }
+}
